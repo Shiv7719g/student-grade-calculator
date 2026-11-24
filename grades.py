@@ -1,4 +1,4 @@
-print("Student Grade Calculator")
+print("My Student Marks Program")
 
 mark = int(input("Enter student mark: "))
 
