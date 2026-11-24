@@ -1,10 +1,10 @@
 print("Student Grade Calculator")
 
-mark = 80
+mark = int(input("Enter student mark: "))
 
-print("Student mark:", mark)
-
-if mark >= 50:
+if mark < 0 or mark > 100:
+    print("Invalid mark")
+elif mark >= 50:
     print("Result: Pass")
 else:
     print("Result: Fail")
